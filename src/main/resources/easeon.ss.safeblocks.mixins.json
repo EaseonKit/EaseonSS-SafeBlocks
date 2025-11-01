@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.easeon.ss.safeblocks.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+        "IPickUpBlockGoal",
+        "IPlaceBlockGoal",
+        "EndermanEntityMixin",
+        "CreeperEntityMixin"
+    ],
+	"client": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
