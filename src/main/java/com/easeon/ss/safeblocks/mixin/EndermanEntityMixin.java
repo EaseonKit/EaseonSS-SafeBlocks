@@ -25,12 +25,3 @@ public abstract class EndermanEntityMixin extends MobEntity {
         }
     }
 }
-
-//@Mixin(targets = "net.minecraft.entity.mob.EndermanEntity$PickUpBlockGoal")
-//public abstract class EndermanEntityMixin extends Goal {
-//
-//    @Inject(method = "canStart", at = @At("HEAD"), cancellable = true)
-//    private void disableEndermanPickup(CallbackInfoReturnable<Boolean> cir) {
-//        cir.setReturnValue(false);
-//    }
-//}
